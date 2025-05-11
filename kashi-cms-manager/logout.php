@@ -1,0 +1,9 @@
+<?php 
+ob_start(); 
+session_start();
+session_destroy(); 
+/*unset($_SESSION['session_master']);
+unset($_SESSION['master_username']);*/
+header("location:sign-in"); 
+ob_end_flush();
+?>

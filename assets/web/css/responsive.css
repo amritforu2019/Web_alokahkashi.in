@@ -1,0 +1,898 @@
+/* Extra small devices (phones, less than 576px) */
+@media (max-width: 575.98px) {
+  html,
+  body {
+    font-size: 42%;
+    overflow-x: hidden;
+  }
+  .grid-two-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid-three-cols {
+    grid-template-columns: 1fr;
+  }
+  h1 {
+    font-size: 3rem;
+  }
+  a,
+  p {
+    font-size: 14px;
+  }
+  .answer {
+    font-size: 1.9rem;
+  }
+  /* ======nav responsive css==== */
+  .top-nav {
+    flex-direction: column;
+  }
+
+  .room-top-nav {
+    flex-direction: column;
+  }
+
+  nav .nav2 a {
+    font-size: 6px;
+    font-weight: 600;
+  }
+  nav .nav2 {
+    gap: 1rem;
+    display: none;
+  }
+  .nav1 .nav1-center {
+    margin: auto;
+    max-width: 50%;
+  }
+  .nav1 .nav1-center img {
+    width: 62%;
+    height: auto;
+  }
+  nav .nav1-left p,
+  nav .nav1-right p {
+    font-size: 1.7rem;
+  }
+  .overlay-content {
+    flex-direction: column;
+  }
+  .left-menu {
+    width: 100%;
+  }
+  .right-content {
+    width: 100%;
+    padding: 10rem;
+  }
+  .right-content .mobile-responsive-logo img {
+    width: 300px;
+  }
+  .left-menu ul li a {
+    font-size: 2rem;
+  }
+  .room-left-menu ul li a {
+    font-size: 2rem;
+  }
+  .room-right-top-nav .room-top-nav-socialLinks {
+    display: none;
+  }
+  /* ======End nav responsive css==== */
+
+  /* ======hero slider responsive css==== */
+
+  .slide-title img {
+    top: 30%;
+    width: 140px;
+    height: 140px;
+  }
+
+  /* ======End hero slider responsive css==== */
+  .hero-style .slide-title .slider-welcome {
+    font-size: 4rem;
+  }
+  .hero-style .slide-title h1 {
+    font-size: 10rem;
+  }
+  .room-slider-fonts {
+    font-size: 6rem !important;
+  }
+  /* ======welcome image responsive css==== */
+  .welcome-main-image {
+    height: 50vh;
+  }
+
+  .common-bg-design::before {
+    background-size: contain;
+  }
+  /* ====== End welcome image  responsive css==== */
+
+  /* ===our offering rooms==== */
+  .room-box .room-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  .room-box .room-right {
+    width: 100%;
+  }
+  .room-left {
+    order: 2;
+  }
+  .room-right {
+    order: 1;
+  }
+  .offering-bg {
+    top: -33px;
+  }
+  .room-box .room-left {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .room-box .room-left p {
+    font-size: 1.8rem;
+    max-width: 100%;
+  }
+  /* === End our offering rooms==== */
+  /* =======Restaurent========= */
+  .restaurent-box .restaurent-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .restaurent-box .restaurent-left {
+    width: 100%;
+  }
+  .restaurent-box .restaurent-right {
+    width: 100%;
+  }
+  .restaurent-left {
+    order: 2;
+  }
+  .restaurent-right {
+    order: 1;
+  }
+  .restaurent-box .restaurent-left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .restaurent-box .restaurent-left p {
+    font-size: 1.8rem;
+  }
+  .center-row .cuisines-box-img img {
+    width: 60%;
+  }
+  /* ========Banquet Hall============= */
+  .Banquet-box .Banquet-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .Banquet-box .Banquet-left {
+    width: 100%;
+  }
+  .Banquet-box .Banquet-right {
+    width: 100%;
+  }
+  .Banquet-left {
+    order: 2;
+  }
+  .Banquet-right {
+    order: 1;
+  }
+  .Banquet-box .Banquet-left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .Banquet-box .Banquet-left p {
+    font-size: 1.8rem;
+  }
+
+  /* ========== */
+  .common-btn-tour {
+    margin-top: 5rem;
+  }
+  /* ========== */
+  /* =========index our facilities========= */
+  .Facilities .grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .facilities-container .grid {
+    gap: 2rem;
+    margin: 0 2.6rem;
+  }
+  /* =========index client says========= */
+  .test-card-body p {
+    max-width: 100%;
+  }
+  /* =========index direct booking benefits says========= */
+  .booking-benefits-main .grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* =========testimonial============ */
+  .testimonial .testi-fix-img img {
+    width: 40%;
+    height: auto;
+  }
+  /* =====navbar2 room navbar========= */
+  .right-top-nav .top-nav-socialLinks {
+    display: none;
+  }
+  .room-nav-new .room-nav2 a {
+    font-size: 6px;
+    font-weight: 600;
+  }
+  .room-nav-new .room-nav2 {
+    gap: 1rem;
+    display: none;
+  }
+  .room-nav-new .room-nav1-left p,
+  .room-nav-new .room-nav1-right p {
+    font-size: 1.7rem;
+  }
+  .room-nav1 .room-nav1-center {
+    max-width: 50%;
+  }
+  .room-nav1 .room-nav1-center a img {
+    width: 62%;
+    height: auto;
+  }
+  .room-overlay-content {
+    flex-direction: column;
+  }
+  .room-left-menu {
+    width: 100%;
+  }
+  .room-right-content {
+    width: 100%;
+  }
+  .room-right-content .room-mobile-responsive-logo img {
+    width: 300px;
+  }
+  footer .left-footer img {
+    width: 50%;
+  }
+  footer .left-footer p {
+    width: 73%;
+  }
+  footer .center-footer {
+    margin-left: 0rem;
+  }
+  .left-footer,
+  .center-footer {
+    display: none;
+  }
+  footer .container {
+    padding-bottom: 5rem;
+  }
+  .privacyPage a {
+    font-size: 1.6rem;
+  }
+  nav .nav1-left a i,
+  nav .nav1-right a i,
+  .room-nav-new .room-nav1-left a i,
+  .room-nav-new .room-nav1-right a i {
+    font-size: 1.7rem;
+  }
+  .gallery .controls {
+    justify-content: flex-start;
+    margin-bottom: 5rem;
+  }
+  .gallery .controls .buttons {
+    min-width: 110px;
+  }
+  .googleMap-data-right {
+    margin-top: 4rem;
+  }
+  .map-location-data .location-data {
+    justify-content: center;
+  }
+  .map-location-data .location-data h3 {
+    font-size: 2.5rem;
+  }
+  .map-location-data .location-data p {
+    font-size: 2.1rem;
+  }
+  /* ======================
+    about hostx responsive css
+    ====================== */
+  .hostX .hostX-flex {
+    flex-direction: column;
+  }
+  .hostX-left {
+    width: 100%;
+  }
+  .hotsx-line {
+    display: none;
+  }
+  .hostX .hostX-flex {
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  /* ======================
+    about amenities css
+    ====================== */
+  .about-amenities .grid-four-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  /* ======================
+      Rooms Details responsive css
+      ====================== */
+  .room-details-grid-two-cols {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .room-amenities-grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* ======================
+      Rooms responsive css
+      ====================== */
+  .room-bg .room-section {
+    padding-top: 5.6rem;
+  }
+  .room-right-text .room-right-icons-data {
+    gap: 3rem;
+    justify-content: center;
+  }
+  .room-bg {
+    background-size: contain;
+  }
+  .room-flex-data {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .room-right-text .room-right-text-para {
+    max-width: 100%;
+  }
+  .classic-room-img {
+    order: 1;
+  }
+  .classic-room {
+    order: 2;
+  }
+  .signature-room-img {
+    order: 3;
+  }
+  .siganture-room {
+    order: 4;
+  }
+  .family-room-img {
+    order: 5;
+  }
+  .family-room {
+    order: 6;
+  }
+  .room-right-text {
+    width: 100%;
+    text-align: center;
+  }
+  .room-details-slider {
+    margin-top: 12rem;
+  }
+  .room-flex-data2 {
+    flex-direction: column;
+    gap: 5rem;
+  }
+  .room-left-img {
+    width: 100%;
+  }
+  .room-flex-data2 .room-right-text {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .room-flex-data2 .room-right-text .room-right-icons-data {
+    justify-content: center;
+  }
+  /* ======================
+          aur menu responsive css
+          ====================== */
+  .filter-btn {
+    margin: 0.7rem 1rem;
+  }
+
+  .tab-item {
+    grid-template-columns: 1fr;
+  }
+  /* ======================
+                  video responsive css
+                  ====================== */
+
+  .video-carousel .item video {
+    height: auto;
+  }
+  .no-js .owl-carousel,
+  .owl-carousel.owl-loaded {
+    display: block;
+    margin: auto;
+  }
+  /* ======================
+      restaurent responsive css
+      ====================== */
+  .cuisines-food-img .grid {
+    gap: 4rem;
+  }
+  .cuisines-food-img .grid-three-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .tab-content-left {
+    display: none;
+  }
+  .resturen-btnn {
+    left: 33%;
+  }
+  .form-flex .form-flex-input-one {
+    width: 100%;
+  }
+  .res-contact-left form input,
+  .res-contact-left form textarea {
+    width: 100%;
+  }
+  /* ======================
+      restaurent contact responsive css
+      ====================== */
+  .res-contact .res-contact-flex {
+    flex-direction: column;
+  }
+  .res-contact-flex .res-contact-left {
+    width: 100%;
+    order: 2;
+  }
+  .res-contact-right {
+    width: 100%;
+    margin: 0;
+    order: 1;
+  }
+  /* ======================
+      gallery responsive css
+      ====================== */
+  .gallery .image-container .image {
+    height: 165px;
+  }
+  .gallery .image-container {
+    margin: 0 2.5rem;
+  }
+  /* ----call button------  */
+  .call-buton .cc-calto-action-ripple {
+    left: 84%;
+    bottom: 4%;
+  }
+  .call-buton .cc-calto-action-ripple {
+    width: 6rem;
+    height: 6rem;
+    padding: 1.8rem;
+  }
+  /* ====footer===== */
+  footer .grid {
+    gap: 4rem;
+  }
+
+  /* ====click to top button===== */
+  .scroll-to-top.show {
+    display: none;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  html,
+  body {
+    font-size: 45%;
+    overflow-x: hidden;
+  }
+  .grid-two-cols {
+    grid-template-columns: 1fr;
+  }
+  .grid-three-cols {
+    grid-template-columns: 1fr;
+  }
+
+  /* ========mobile responsive code========= */
+  .overlay-content {
+    flex-direction: column;
+  }
+  .left-menu {
+    width: 100%;
+    padding: 16rem 0;
+  }
+  .right-content {
+    width: 100%;
+    padding: 3rem;
+  }
+
+  /* ======welcome alokah====== */
+
+  .welcome-alokah .alokah-box {
+    flex-direction: column;
+  }
+  .alokah-box .alokah-left {
+    width: 100%;
+  }
+  .alokah-box .alokah-right {
+    width: 100%;
+    text-align: center;
+  }
+  .alokah-box .alokah-right h1 {
+    font-size: 7.5rem;
+  }
+
+  /* ===navbar==== */
+  nav .nav2 a {
+    font-size: 8px;
+    font-weight: 600;
+  }
+  nav .nav2 {
+    gap: 1rem;
+  }
+  .nav1 .nav1-center {
+    margin: auto;
+    max-width: 50%;
+  }
+  .nav1 .nav1-center img {
+    width: 50%;
+    height: auto;
+  }
+  nav .nav1-left p,
+  nav .nav1-right p {
+    font-size: 1.2rem;
+  }
+  .overlay-content {
+    flex-direction: column;
+  }
+  .left-menu {
+    width: 100%;
+    padding: 5rem 0;
+  }
+  .right-content {
+    width: 100%;
+    padding: 3rem;
+  }
+  .right-content .mobile-responsive-logo img {
+    width: 300px;
+  }
+  /* ==============our offering section =========== */
+  .offering-data-box .offering-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+    position: relative;
+    flex-direction: column;
+  }
+  .offering-data .offering-data-left1 {
+    width: 100%;
+  }
+  .offering-data .offering-data-left2 {
+    width: 100%;
+  }
+  .offering-data .offering-data-left3 {
+    width: 100%;
+  }
+  /* ============ */
+  .offering-data-left1 {
+    order: 2;
+  }
+  .offering-data-right1 {
+    order: 1;
+  }
+  .offering-data-right2 {
+    order: 3;
+  }
+  .offering-data-left2 {
+    order: 4;
+  }
+  .offering-data-right3 {
+    order: 5;
+  }
+  .offering-data-left3 {
+    order: 6;
+  }
+  /* =============== */
+  footer .center-footer {
+    margin-left: 0rem;
+  }
+  /* ==========our offering========== */
+  .room-box .room-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+
+  .room-box .room-right {
+    width: 100%;
+  }
+  .room-left {
+    order: 2;
+  }
+  .room-right {
+    order: 1;
+  }
+  .offering-bg {
+    top: -33px;
+  }
+  .room-box .room-left {
+    text-align: center;
+    max-width: 100%;
+    width: 100%;
+  }
+  .room-box .room-left p {
+    font-size: 1.8rem;
+    max-width: 100%;
+  }
+  /* =======Restaurent========= */
+  .restaurent-box .restaurent-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .restaurent-box .restaurent-left {
+    width: 100%;
+  }
+  .restaurent-box .restaurent-right {
+    width: 100%;
+  }
+  .restaurent-left {
+    order: 2;
+  }
+  .restaurent-right {
+    order: 1;
+  }
+  .restaurent-box .restaurent-left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .restaurent-box .restaurent-left p {
+    font-size: 1.8rem;
+  }
+  .center-row .cuisines-box-img img {
+    width: 60%;
+  }
+  /* ========Banquet Hall============= */
+  .Banquet-box .Banquet-flex {
+    flex-direction: column;
+    gap: 7rem;
+  }
+  .Banquet-box .Banquet-left {
+    width: 100%;
+  }
+  .Banquet-box .Banquet-right {
+    width: 100%;
+  }
+  .Banquet-left {
+    order: 2;
+  }
+  .Banquet-right {
+    order: 1;
+  }
+  .Banquet-box .Banquet-left {
+    text-align: center;
+    max-width: 100%;
+  }
+  .Banquet-box .Banquet-left p {
+    font-size: 1.8rem;
+  }
+  .Facilities .grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .facilities-container .grid {
+    gap: 2rem;
+    margin: 0 1rem;
+  }
+  /* =========index client says========= */
+  .test-card-body p {
+    max-width: 100%;
+  }
+  /* =========index direct booking benefits says========= */
+  .booking-benefits-main .grid-four-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  /* =========testimonial============ */
+  .testimonial .testi-fix-img img {
+    width: 40%;
+    height: auto;
+  }
+  /* =====navbar2 room navbar========= */
+  .room-nav-new .room-nav2 a {
+    font-size: 8px;
+  }
+  .room-nav-new .room-nav2 {
+    gap: 1rem;
+  }
+  .room-nav-new .room-nav1-left p,
+  .room-nav-new .room-nav1-right p {
+    font-size: 1.2rem;
+  }
+  .room-nav1 .room-nav1-center {
+    max-width: 50%;
+  }
+  .room-nav1 .room-nav1-center a img {
+    width: 50%;
+    height: auto;
+  }
+  .room-overlay-content {
+    flex-direction: column;
+  }
+  .room-left-menu {
+    width: 100%;
+  }
+  .room-right-content {
+    width: 100%;
+  }
+  .room-right-content .room-mobile-responsive-logo img {
+    width: 300px;
+  }
+  footer .left-footer img {
+    width: 50%;
+  }
+  footer .left-footer p {
+    width: 73%;
+  }
+  footer .center-footer {
+    margin-left: 0rem;
+  }
+  /* ======================
+    about hostx responsive css
+    ====================== */
+  .hostX .hostX-flex {
+    flex-direction: column;
+  }
+  .hostX-left {
+    width: 100%;
+  }
+  .hotsx-line {
+    display: none;
+  }
+  .hostX .hostX-flex {
+    gap: 2rem;
+    align-items: flex-start;
+  }
+  /* ======================
+      about amenities css
+      ====================== */
+  .about-amenities .grid-four-cols {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  /* ======================
+        Rooms responsive css
+        ====================== */
+  .room-bg {
+    background-size: contain;
+  }
+  /* .classic-room-img {
+    order: 1;
+  }
+  .classic-room {
+    order: 2;
+  }
+  .signature-room-img {
+    order: 4;
+  }
+  .signature-room {
+    order: 3;
+  }
+  .family-room-img {
+    order: 6;
+  }
+  .family-room {
+    order: 5;
+  } */
+  /* ======================
+            aur menu responsive css
+            ====================== */
+  .filter-btn {
+    margin: 0.7rem 1rem;
+  }
+
+  .tab-item {
+    grid-template-columns: 1fr;
+  }
+  /* ======================
+                    video responsive css
+                    ====================== */
+
+  .video-carousel .item video {
+    height: auto;
+  }
+  .no-js .owl-carousel,
+  .owl-carousel.owl-loaded {
+    display: block;
+    margin: auto;
+  }
+  /* ======================
+        restaurent contact responsive css
+        ====================== */
+  .res-contact .res-contact-flex {
+    flex-direction: column;
+  }
+  .res-contact-flex .res-contact-left {
+    width: 100%;
+    order: 2;
+  }
+  .res-contact-right {
+    width: 100%;
+    margin: 0;
+    order: 1;
+  }
+  /* ----call button------  */
+  .call-buton .cc-calto-action-ripple {
+    left: 8%;
+    bottom: 13%;
+  }
+  .scroll-to-top {
+    bottom: 49px;
+    right: 30px;
+    width: 8rem;
+    height: 8rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  html,
+  body {
+    font-size: 48%;
+    overflow-x: hidden;
+  }
+  .grid-two-cols {
+    grid-template-columns: 1fr 1fr;
+  }
+  .right-content {
+    width: 55%;
+    padding: 3rem;
+  }
+
+  /* =======navbar======== */
+  nav .nav2 a {
+    font-size: 9px;
+  }
+  nav .nav1-left p,
+  nav .nav1-right p {
+    font-size: 1.2rem;
+  }
+  /* ===overlay navbar==== */
+  .room-right-content .room-mobile-responsive-logo img {
+    width: 290px;
+  }
+  /* =====room nav===== */
+  .room-nav-new .room-nav2 a {
+    font-size: 10px;
+  }
+  /* =============
+  slider text section
+  ============= */
+  .hero-style .slide-title h1 {
+    font-size: 14rem;
+  }
+  .hero-style .slide-title .slider-welcome {
+    font-size: 6rem;
+  }
+  .img-welcome-ani {
+    background-size: auto;
+  }
+  /* ===restaurent slider img===== */
+  .slide-title img {
+    width: 160px;
+    height: 160px;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  html,
+  body {
+    font-size: 52%;
+    overflow-x: hidden;
+  }
+}
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
+  /* Styles for large desktops */
+  .alokah-box .alokah-right h1 {
+    margin: 3rem 0;
+    font-weight: 900;
+    font-size: 5.5rem;
+  }
+}
+
+/* Ultra wide devices (large desktops, 1600px and up) */
+@media (min-width: 1600px) {
+  /* Styles for ultra wide desktops */
+}

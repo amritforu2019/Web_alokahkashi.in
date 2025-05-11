@@ -1,0 +1,1 @@
+<script src="assets/plugins/toastr/toastr.min.js"></script>

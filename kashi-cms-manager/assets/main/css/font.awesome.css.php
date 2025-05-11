@@ -1,0 +1,2 @@
+<link href="assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+                                                                                     <link href="assets/plugins/font-awesome/css/font-awesome-animation.css" rel="stylesheet">
