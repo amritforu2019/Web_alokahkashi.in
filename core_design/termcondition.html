@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/fav.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!--*** ================Rimix icons cdn================  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- ******* Plus Jakarta Sans cdn link  ******* -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- ==============Oswald font============== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- *******  Font Awesome Icons Link  ******* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- *******  aos cdn link  ******* -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- magnific-popup css cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <title>Alokah Kashi</title>
+</head>
+
+<body class="gallery-page" style="background-color: #fdebd041;">
+    <!-- <div class="main-loader">
+        <div id="loader-wrapper">
+            <div class="loader">
+                <span class="welcome-text">Atithi Devo Bhava</span>
+            </div>
+        </div>
+    </div> -->
+
+    <!--*** =======================
+             navbar section
+       *** ======================== ***-->
+    <div class="room-nav-new">
+        <!-- -------------- -->
+        <div class="room-top-nav">
+            <div class="room-left-top-nav">
+                <div class="room-top-nav-contact">
+                    <div class="room-top-nav-contact-data">
+                        <i class="ri-phone-line"></i>
+                        <p>+91 91514 54301 / 302</p>
+                    </div>
+                    <div class="room-top-nav-email-data">
+                        <i class="ri-mail-open-line"></i>
+                        <p>reservations@alokahkashi.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="room-right-top-nav">
+                <div class="room-top-nav-socialLinks">
+                    <a href=""><i class="ri-facebook-line"></i></a>
+                    <a href=""><i class="ri-youtube-line"></i></a>
+                    <a href=""><i class="ri-instagram-line"></i></a>
+                    <a href=""><i class="ri-whatsapp-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- -------------- -->
+
+        <div class="room-nav1">
+            <div class="room-nav1-left">
+                <a href="#" id="room-menu-toggle">
+                    <i class="ri-menu-line icons"></i>
+                    <p>Menu</p>
+                </a>
+            </div>
+            <div class="room-nav1-center">
+                <a href="index.html">
+                    <img src="./assets/logo2 (1).png" alt="Logo" />
+                </a>
+            </div>
+            <div class="room-nav1-right">
+                <a href=" https://app.axisrooms.com/beV2/searchHotel.html?paxInfo=2%7C0%7C%7C&allHotels=true&newBe=true&productId=196558&bookingEngineId=4717&rooms=1&searchId=-1&searchNumber=1 "
+                    target="_blank">
+                    <p>Book <span style="margin-left: 0.3rem;"> Now</span></p>
+                    <i class="ri-shopping-bag-4-line icons"></i>
+                </a>
+            </div>
+        </div>
+        <div class="room-nav2">
+            <!-- <a href="index.html">Home</a> -->
+            <a href="about.html">About Us</a>
+            <a href="room.html">Rooms</a>
+            <a href="restaurant.html">Restaurant</a>
+            <a href="banquethall.html">Banquet Hall</a>
+            <a href="gallery.html">Gallery </a>
+            <a href="#explore-varanasi">Explore Varanasi</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <!-- =======================
+       responsive navbar section
+     ======================== -->
+    <div id="room-overlay-menu" class="room-overlay">
+        <a href="#" class="room-close-btn" id="room-close-menu">
+            <i class="ri-close-line room-mobile-close"></i>
+            <!-- Remix Icon for close -->
+        </a>
+        <div class="room-overlay-content">
+            <div class="room-left-menu">
+                <ul>
+
+                    <li><a href="index.html"> I. Home</a></li>
+                    <li><a href="about.html"> I. About Us</a></li>
+                    <li><a href="room.html"> II. Rooms</a></li>
+                    <li><a href="restaurant.html"> III. Restaurant</a></li>
+                    <li><a href="banquethall.html">VI. Banquet Hall</a></li>
+                    <li><a href="gallery.html"> IV. Gallery </a></li>
+                    <li><a href=""> V. Explore Varanasi</a></li>
+                    <li><a href="contact.html"> VII. Contact</a></li>
+                </ul>
+            </div>
+            <div class="room-right-content">
+                <div class="room-mobile-responsive-logo">
+                    <img src="assets/logo2 (1).png" alt="" />
+                    <p style="text-align: center; padding-top: 2rem;color: #fff;"> <img
+                            style="width: 19px;height: 1px;     margin-left: 9rem;" src="assets/whiteLine.png" alt="">
+                        Premium 3 Star hotel
+                        <img style="width: 19px;height: 1px;" src="assets/whiteLine.png" alt="">
+                    </p>
+                </div>
+                <div class="room-mobile-responsive-data">
+
+
+                    <p>
+                        <i class="ri-map-pin-line"></i>Paharia Road, Akhtha, Varanasi. Opp Hero Motocorp - Uttar Pradesh
+                        221007</span>
+                    </p>
+                    <p> <i class="ri-phone-line"></i>+91 91514 54301 / 302</p>
+                    <p> <i class="ri-mail-send-line"></i> reservations@alokahkashi.in</p>
+                    <p class="responsive-a">
+                        <a href="tel: 9151454301">Contact Us <i class="ri-arrow-right-line"></i></a>
+                    </p>
+                </div>
+                <div class="room-mobile-responsive-social">
+                    <a href=""><i class="ri-facebook-line"></i></a>
+                    <a href=""><i class="ri-instagram-line"></i></a>
+                    <a href=""><i class="ri-mail-send-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ***common heading  -->
+
+    <!-- =======================
+       gallery section
+     ======================== -->
+
+    <div class="privacyPocliy ">
+        <div class="heading" style="margin-top: 25rem; text-align: center;">
+            <h1>Term & <span style="color: #AB8965;"> Condition</span></h1>
+        </div>
+        <div class="container">
+            <div class="privacyPocliy-data">
+                <p style="color: black;">Reservation and Check-In:</p>
+                <br>
+                <p>All reservations must be made by individuals of legal age. A valid ID and credit card are required at
+                    check-in.</p>
+                <br>
+                <p>Check-in time is 1Pm, and check-out time is 11 Am. Early check-in and late check-out based on
+                    availability on chargeable basis.</p>
+                <br>
+                <p style="color: black;">Cancellation Policy:</p>
+                <br>
+                <p>1-If the booking will cancel before 07 Days of check-in date, No cancellation charge, The advance
+                    amount will be adjusting with future booking.</p>
+                <br>
+                <p>2-If the booking will cancel with-in 07 Days of check-in date, 50% of advanceAmount charge as
+                    cancellation fees, Rest will be adjusting with future booking.</p>
+                <br>
+                <p>3- In case of NO SHOW, entire amount will be charge as cancellation.</p>
+                <br>
+                <p style="color: black;">Payment:</p>
+                <br>
+                <p>For Booking Confirmation need to deposit 50% of totel billing amount, balance will be charged at
+                    check-in. </p>
+                <br>
+                <p style="color: black;">Room Occupancy:</p>
+                <br>
+                <p>Maximum occupancy for each room type is specified at the time of booking. Additional guests may incur
+                    an extra charge.</p>
+                <br>
+                <p style="color: black;">Smoking Policy:</p>
+                <br>
+                <p>Our hotel is strictly non-smoking in public area. Smoking is only permitted in designated in room.
+                </p>
+                <br>
+                <p style="color: black;">Pet Policy:</p>
+                <br>
+                <p>Pets are not allowed in the hotel premises. </p>
+                <br>
+                <p style="color: black;">Loss or Damage:</p>
+                <br>
+                <p>The hotel is not responsible for loss or damage to personal belongings. In-room safes are provided
+                    for your convenience.</p>
+                <br>
+                <p style="color: black;">Noise and Disturbance:</p>
+                <br>
+                <p>Guests are expected to respect the comfort and privacy of other guests. Excessive noise or
+                    disturbance may result in eviction without refund.</p>
+                <br>
+                <p style="color: black;">Use of Facilities: </p>
+                <br>
+                <p>Guests may use hotel facilities in accordance with posted rules and hours of operation. Any misuse or
+                    damage may result in additional charges.</p>
+                <br>
+                <p style="color: black;">Conduct and Behavior: </p>
+                <br>
+                <p>Guests are expected to conduct themselves in a respectful and courteous manner towards staff and
+                    fellow guests.</p>
+                <br>
+                <p style="color: black;">Events and Parties:</p>
+                <br>
+                <p>Parties, events, and gatherings must be approved in advance by hotel management and may be subject to
+                    additional fees.</p>
+                <br>
+                <p style="color: black;">Liability:</p>
+                <br>
+                <p>The hotel is not responsible for accidents, injuries, or loss of property. Guests are advised to
+                    secure their valuables and use hotel facilities at their own risk.</p>
+                <br>
+                <p style="color: black;">Force Majeure:</p>
+                <br>
+                <p>The hotel is not liable for failure to perform its obligations due to circumstances beyond its
+                    control, including but not limited to natural disasters, acts of terrorism, or government
+                    regulations.</p>
+                <br>
+                <p style="color: black;">Amendments and Modifications:</p>
+                <br>
+                <p>These terms and conditions may be subject to change without notice. Guests are encouraged to review
+                    them periodically.</p>
+                <br>
+                <p>By making a reservation and staying at our hotel, guests agree to abide by these terms and
+                    conditions.</p>
+
+            </div>
+            <!-- <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1730224032/ukdhtr2v9jiknqvd3u6z.png" width="100%" height="auto" alt=""> -->
+        </div>
+    </div>
+
+
+
+    <!-- =======================
+            footer section       
+         ======================== -->
+    <footer>
+        <div class="container grid grid-three-cols">
+            <div class="left-footer" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <img src="assets/logo2 (1).png" alt="">
+                <p>Hotel Alokah Kashi, a luxurious 3-star boutique hotel, takes inspiration from Lord
+                    Shiva—'Alokah,' meaning 'transcending the world in vision, splendor, and brilliance.' Designed
+                    in true boutique style, the hotel beautifully combines light and exquisite woodwork to create an
+                    inviting atmosphere, offering the perfect blend of comfort and tranquility for guests to immerse
+                    themselves in the sacred ambiance of Kashi.</p>
+                <br>
+
+
+            </div>
+            <div class="center-footer" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                <h3>Explore</h3>
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a href="home">- Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">- About Us</a>
+                        </li>
+                        <li>
+                            <a href="room.html">- Rooms</a>
+                        </li>
+                        <li>
+                            <a href="restaurant.html">- Restaurant</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">- Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">- Explore Varanasi</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">- Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-footer" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                <h3>Contact</h3>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <!-- <h4>- Address</h4> -->
+                        <!-- <i class="ri-map-pin-user-line footer-icons"></i> -->
+                    </div>
+                    <p>
+                        Paharia Rd, opposite Hero Motocorp Showroom,
+                        Akhtha, Sarnath, Varanasi,
+                        Uttar Pradesh 221007
+                    </p>
+                </div>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <i class="ri-mail-unread-line footer-icons"></i>
+                        <!-- <h4>- Email</h4> -->
+                    </div>
+                    <p class="footer-email">reservations@alokahkashi.in</p>
+                </div>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <i class="ri-phone-line footer-icons-phone "></i>
+                        <!-- <h4>- Phone</h4> -->
+                    </div>
+                    <p class="footer-phone-no">+91 91514 54301 / 302</p>
+                </div>
+
+                <div class="footer-socila-links">
+                    <div>
+                        <a href=""><i class="ri-facebook-line"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="ri-instagram-line"></i>
+                    </div></a>
+                    <div>
+                        <a href=""><i class="ri-mail-check-line"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+            privacy policy section       
+         ======================== -->
+    <section>
+        <div class="privacyPage" style="    border-top: 1px solid #ffffff63;">
+            <!-- <a href="privacypolicy.html">FAQ</a> -->
+            <a href="privacypolicy.html">Privacy Policy</a>
+            <p>|</p>
+            <a href="termcondition.html">Terms & Condition</a>
+            <p>|</p>
+            <a href="cancellationpolicy.html">Cancellation Policy</a>
+        </div>
+
+    </section>
+    <button id="scrollToTopBtn" class="scroll-to-top" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></button>
+    <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:+91 9151454301"><i class="fa fa-phone"></i>
+            <!-- <span class="num">0909.999.999</span> -->
+        </a>
+    </section>
+    <div class="subfooter">
+        <p>© Copyright 2024 Alokah Kashi Managed by Sai Srinika Ventures / Designed & Developed By - <a
+                href="https://www.devindia.in/" target="_blank">
+                Dev India IT
+                Services</a> </p>
+    </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+
+    <!-- =======================
+                         aos js
+              ======================== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- magnific popup js cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+
+        $(document).ready(function () {
+
+            $('.buttons').click(function () {
+
+                $(this).addClass('active').siblings().removeClass('active');
+
+                var filter = $(this).attr('data-filter');
+
+                if (filter === 'all') {
+                    $('.image').fadeIn(400);
+                } else {
+                    $('.image').not('.' + filter).fadeOut(200);
+                    $('.image').filter('.' + filter).fadeIn(400);
+                }
+
+            });
+
+            $('.gallery').magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+
+        });
+
+
+    </script>
+    <script>
+        (function (w, d, s, u) {
+            w.gbwawc = {
+                url: u,
+                options: {
+                    waId: "+91 9151454301",
+                    siteName: "Alokah Kashi",
+                    siteTag: "Online ",
+                    siteLogo: "https://www.alokahkashi.in/web/assets/images/fev.png",
+                    widgetPosition: "LEFT",
+                    triggerMessage: "",
+                    welcomeMessage: "Welcome To Alokah kashi Hotel, Varanasi’s Pinnacle Of Elegance",
+                    brandColor: "#25D366",
+                    messageText: "Hi sir, I want to book a",
+                    replyOptions: ['Signature Room', 'Classic Room', 'Luxe Dormitory', 'SeeRa Restaurant'],
+                },
+            };
+            var h = d.getElementsByTagName(s)[0],
+                j = d.createElement(s);
+            j.async = true;
+            j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+            h.parentNode.insertBefore(j, h);
+        })(window, document, "script", "https://waw.gallabox.com");
+    </script>
+</body>
+
+</html>

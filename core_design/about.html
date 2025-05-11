@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="assets/fav.png">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+
+    <!--*** ================Rimix icons cdn================  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <!-- ******* Plus Jakarta Sans cdn link  ******* -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <!-- ==============Oswald font============== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+
+    <!-- *******  Font Awesome Icons Link  ******* -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <!-- *******  aos cdn link  ******* -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+    <title>Alokah Kashi</title>
+</head>
+
+<body class="gallery-page">
+    <!-- <div class="main-loader">
+        <div id="loader-wrapper">
+            <div class="loader">
+                <span class="welcome-text">Atithi Devo Bhava</span>
+            </div>
+        </div>
+    </div> -->
+
+    <!--*** =======================
+             navbar section
+       *** ======================== ***-->
+    <div class="room-nav-new">
+        <!-- -------------- -->
+        <div class="room-top-nav">
+            <div class="room-left-top-nav">
+                <div class="room-top-nav-contact">
+                    <div class="room-top-nav-contact-data">
+                        <i class="ri-phone-line"></i>
+                        <p>+91 91514 54301 / 302</p>
+                    </div>
+                    <div class="room-top-nav-email-data">
+                        <i class="ri-mail-open-line"></i>
+                        <p>reservations@alokahkashi.in</p>
+                    </div>
+                </div>
+            </div>
+            <div class="room-right-top-nav">
+                <div class="room-top-nav-socialLinks">
+                    <a href=""><i class="ri-facebook-line"></i></a>
+                    <a href=""><i class="ri-youtube-line"></i></a>
+                    <a href=""><i class="ri-instagram-line"></i></a>
+                    <a href=""><i class="ri-whatsapp-line"></i></a>
+                </div>
+            </div>
+        </div>
+        <!-- -------------- -->
+
+        <div class="room-nav1">
+            <div class="room-nav1-left">
+                <a href="#" id="room-menu-toggle">
+                    <i class="ri-menu-line icons"></i>
+                    <p>Menu</p>
+                </a>
+            </div>
+            <div class="room-nav1-center">
+                <a href="index.html">
+                    <img src="./assets/logo2 (1).png" alt="Logo" />
+                </a>
+            </div>
+            <div class="room-nav1-right">
+                <a href=" https://app.axisrooms.com/beV2/searchHotel.html?paxInfo=2%7C0%7C%7C&allHotels=true&newBe=true&productId=196558&bookingEngineId=4717&rooms=1&searchId=-1&searchNumber=1 "
+                    target="_blank">
+                    <p>Book <span style="margin-left: 0.3rem;"> Now</span></p>
+                    <i class="ri-shopping-bag-4-line icons"></i>
+                </a>
+            </div>
+        </div>
+        <div class="room-nav2">
+            <!-- <a href="index.html">Home</a> -->
+            <a href="about.html">About Us</a>
+            <a href="room.html">Rooms</a>
+            <a href="restaurant.html">Restaurant</a>
+            <a href="banquethall.html">Banquet Hall</a>
+            <a href="gallery.html">Gallery </a>
+            <a href="#explore-varanasi">Explore Varanasi</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </div>
+    <!-- =======================
+       responsive navbar section
+     ======================== -->
+    <div id="room-overlay-menu" class="room-overlay">
+        <a href="#" class="room-close-btn" id="room-close-menu">
+            <i class="ri-close-line room-mobile-close"></i>
+            <!-- Remix Icon for close -->
+        </a>
+        <div class="room-overlay-content">
+            <div class="room-left-menu">
+                <ul>
+
+                    <li><a href="index.html"> I. Home</a></li>
+                    <li><a href="about.html"> I. About Us</a></li>
+                    <li><a href="room.html"> II. Rooms</a></li>
+                    <li><a href="restaurant.html"> III. Restaurant</a></li>
+                    <li><a href="banquethall.html">VI. Banquet Hall</a></li>
+                    <li><a href="gallery.html"> IV. Gallery </a></li>
+                    <li><a href=""> V. Explore Varanasi</a></li>
+                    <li><a href="contact.html"> VII. Contact</a></li>
+                </ul>
+            </div>
+            <div class="room-right-content">
+                <div class="room-mobile-responsive-logo">
+                    <img src="assets/logo2 (1).png" alt="" />
+                    <p style="text-align: center; padding-top: 2rem;color: #fff;"> <img
+                            style="width: 19px;height: 1px;     margin-left: 9rem;" src="assets/whiteLine.png" alt="">
+                        Premium 3 Star hotel
+                        <img style="width: 19px;height: 1px;" src="assets/whiteLine.png" alt="">
+                    </p>
+                </div>
+                <div class="room-mobile-responsive-data">
+
+
+                    <p>
+                        <i class="ri-map-pin-line"></i>Paharia Road, Akhtha, Varanasi. Opp Hero Motocorp - Uttar Pradesh
+                        221007</span>
+                    </p>
+                    <p> <i class="ri-phone-line"></i> +91 91514 54301 / 302</p>
+                    <p> <i class="ri-mail-send-line"></i> reservations@alokahkashi.in</p>
+                    <p class="responsive-a">
+                        <a href="tel: 9151454301">Contact Us <i class="ri-arrow-right-line"></i></a>
+                    </p>
+                </div>
+                <div class="room-mobile-responsive-social">
+                    <a href=""><i class="ri-facebook-line"></i></a>
+                    <a href=""><i class="ri-instagram-line"></i></a>
+                    <a href=""><i class="ri-mail-send-line"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- =======================
+       about welcome section
+     ======================== -->
+
+    <section class="about-welcome">
+        <div class="container grid grid-two-cols">
+            <div class="about-welcome-left" data-aos="fade-up" data-aos-duration="1000">
+                <h2>About us</h2>
+                <p>Welcome to Alokah Kashi, a sanctuary of elegance and tradition in the heart of Varanasi. Inspired by
+                    Lord Shiva. 'Alokah' signifies a transcendent vision, brilliance, and splendour—qualities that shape
+                    every aspect of this boutique hotel. Each room offers a haven of comfort - warm lighting, fine
+                    woodwork, private balconies, spacious layouts, and refined decor. Adding to this, our highly trained
+                    staff enhances this experience by delivering hospitality with warmth and care.
+
+                </p>
+                <p>Conveniently located, Alokah Kashi provides seamless access to Varanasi's sacred temples, bustling
+                    ghats, vibrant bazaars, and the Buddhist pilgrimage site of Sarnath, where spirituality and
+                    tradition converge. Whether you’re here for pilgrimage, quietude, or adventure, Alokah Kashi is your
+                    gateway to Varanasi’s rich cultural heritage.</p>
+            </div>
+            <!-- ======== -->
+            <div class="about-welcome-right" data-aos="fade-down" data-aos-duration="1500">
+                <img src="assets/aboutWelcomeImg/aw.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+           hostX section
+         ======================== -->
+    <section class="hostX">
+        <div class="container">
+            <div class="hostX-headings" data-aos="fade-up" data-aos-duration="1000">
+                <h1>
+                    <i class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i><i
+                        class="ri-star-s-line icon-star"></i>
+                    Managed By <span><img src="assets/hostX.png" alt="" style=" width: 20%; height: auto;"></span> <i
+                        class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i><i
+                        class="ri-star-s-line icon-star"></i>
+                </h1>
+            </div>
+            <div class="hostX-flex">
+                <div class="hostX-left" data-aos="fade-left" data-aos-duration="1600">
+                    <h3>About hostX</h3>
+                    <p>HostX is a next-gen property management company that partners with hotel owners to revolutionize
+                        operations and elevate
+                        success through high-standard, end-to-end management that enriches guest experiences.
+                    </p>
+                </div>
+                <div class="hotsx-line">
+                    <p style="opacity: 0.5;">|</p>
+                    <p style="opacity: 0.5;">|</p>
+                    <p style="opacity: 0.5;">|</p>
+                    <p style="opacity: 0.5;">|</p>
+                    <p style="opacity: 0.5;">|</p>
+                </div>
+                <div class="hostX-right" data-aos="fade-right" data-aos-duration="1900">
+                    <!-- <h4 style="padding-bottom: 2rem; font-weight: 400; text-transform: uppercase;">For Enquiries, Reach out to </h4> -->
+                    <p><span>Contact us :</span> +91 72002 16162</p>
+                    <p style="padding-top: 2rem;"><span>Email :</span> hostxhospitality@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================
+           about amenities section
+         ======================== -->
+
+    <section class="about-amenities">
+        <div class="about-amenities-headings container" data-aos="fade-up" data-aos-duration="1800">
+            <h1>
+                <i class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i><i
+                    class="ri-star-s-line icon-star"></i>
+                <span>Amenities</span> <i class="ri-star-s-line icon-star"></i><i
+                    class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i>
+            </h1>
+        </div>
+        <div class="about-amenities-data">
+            <div class="container-about-amenities grid grid-four-cols">
+                <!-- ====Cable TV===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="assets/ourFacilityIcons/ic6.png" alt="">
+                    <p>Television</p>
+                </div>
+                <!-- ====Shower===== -->
+                <!-- <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729250397/ketz3pyzrilhksspvyrd.png"
+                        alt="">
+                    <p>Shower
+                    </p>
+                </div> -->
+                <!-- ====Safebox===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/locker.png" alt="">
+                    <p>Locker</p>
+                </div>
+                <!-- ====Free WiFi===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="assets/amenitiesIcons/freewifi.png" alt="">
+                    <p>Free WiFi</p>
+                </div>
+                <!-- ====Work Desk===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="assets/amenitiesIcons/desk.png" alt="">
+                    <p>Work Desk</p>
+                </div>
+                <!-- ====Balcony===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/fsgddfsgdfg.png" alt="">
+                    <p>Balcony</p>
+                </div>
+                <!-- ====Refrigerator===== -->
+                <!-- <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1100">
+                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1730179806/e1f9z74pvnn7qyvyk1lm.png"
+                        alt="">
+                    <p>Refrigerator</p>
+                </div> -->
+                <!-- ====Bathub===== -->
+                <!-- <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1300">
+                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729250604/ptbaxkd4kj83wbgy6tmb.png"
+                        alt="">
+                    <p>Bathub</p>
+                </div> -->
+                <!-- ====Bathub===== -->
+                <!-- <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1730191235/p5p28emzcb5tnx8ljlbq.png"
+                        alt="">
+                    <p>City View</p>
+                </div> -->
+                <!-- ====Toileteries===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/toileteries.png" alt="">
+                    <p>Toileteries</p>
+                </div>
+                <!-- ====Hot Water Kettle===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/waterKettle.png" alt="">
+                    <p>Hot Water Kettle</p>
+                </div>
+                <!-- ====HairDryer===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/hairDryer.png" alt="">
+                    <p>HairDryer</p>
+                </div>
+                <!-- ====Tea/Coffee===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/teaCoffee.png" alt="">
+                    <p>Tea/Coffee</p>
+                </div>
+                <!-- ====Hot/Cold Water===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/hotColdWater.png" alt="">
+                    <p>Hot/Cold Water</p>
+                </div>
+                <!-- ====Air Conditioner===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/airConditioner.png" alt="">
+                    <p>Air Conditioner</p>
+                </div>
+                <!-- ====Towel===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/towels.png" alt="">
+                    <p>Towels</p>
+                </div>
+                <!-- ====Intercom===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/intercom.png" alt="">
+                    <p>Intercom</p>
+                </div>
+                <!-- ====Air Conditioner===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/minibar.png" alt="">
+                    <p>Minibar</p>
+                </div>
+                <!-- ====Yoga Mat===== -->
+                <div class="about-amenities-box" data-aos="fade-up" data-aos-duration="1600">
+                    <img src="assets/amenitiesIcons/yogamat.png" alt="">
+                    <p>Yoga Mat</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======================
+           about faq section
+         ======================== -->
+    <section class="about-faq">
+        <div class="about-faq-headings">
+            <div class="container">
+                <div class="hostX-headings" data-aos="fade-up" data-aos-duration="1000">
+                    <h1>
+                        <i class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i><i
+                            class="ri-star-s-line icon-star"></i>
+                        <span>FAQ</span> <i class="ri-star-s-line icon-star"></i><i
+                            class="ri-star-s-line icon-star"></i><i class="ri-star-s-line icon-star"></i>
+                    </h1>
+                </div>
+            </div>
+        </div>
+        <!-- ====== -->
+        <div class="about-faq-data">
+            <div class="container">
+                <!-- ========== -->
+                <div class="container-faq" data-aos="fade-left" data-aos-duration="1300">
+                    <div class="question">
+                        Can I request early check-in or late check-out?
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            Our standard check-in time is 2:00 pm, and check-out is at 12:00 noon. Early check-in or
+                            late check-out requests may be accommodated on a case-by-case basis, subject to room
+                            availability.
+
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== -->
+                <div class="container-faq" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="question">
+                        What is the hotel’s cancellation policy?
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            Up to 2 days before check-in: Fully refundable
+                            <br>
+                            Within 2 days of check-in: Non-refundable
+                            <br>
+                            No-show: Non-refundable
+                        </div>
+                    </div>
+                </div>
+                <!-- ========== -->
+                <div class="container-faq" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="question">
+                        Is breakfast included with the booking?
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            It depends on the plan you choose. You may also add breakfast to your plan at the time of
+                            check in. For more details, please reach out to the reception.
+
+
+                        </div>
+                    </div>
+                </div>
+                <div class="container-faq" data-aos="fade-left" data-aos-duration="1600">
+                    <div class="question">
+                        Do you help with itinerary planning of Varansi?
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            Yes, we do provide end-to-end trip planning in Varansi. Please call our travel desk at +91
+                            91514 54302 for more details.
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-faq" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="question">
+                        Does Alokah Kashi Hotel provide airport shuttle service?
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            We can provide at extra cost. Please call +91 91514 54302
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-faq" data-aos="fade-left" data-aos-duration="1600">
+                    <div class="question">
+                        Are pets allowed at the hotel?
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            We apologize, but pets are not permitted at our hotel. Thank you for your understanding.
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="container-faq" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="question">
+                        Is there parking available at the hotel?
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            Yes, parking is available.
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- ========== -->
+                <div class="container-faq" data-aos="fade-right" data-aos-duration="1300">
+                    <div class="question">
+                        How can I make a reservation?
+
+
+                    </div>
+                    <div class="answercont">
+                        <div class="answer">
+                            You can book directly through our website or call
+                            +91 91514 54301 / 302 for assistance with your booking.
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+            footer section       
+         ======================== -->
+    <footer>
+        <div class="container grid grid-three-cols">
+            <div class="left-footer" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-out">
+                <img src="assets/logo2 (1).png" alt="">
+                <p>Hotel Alokah Kashi, a luxurious 3-star boutique hotel, takes inspiration from Lord
+                    Shiva—'Alokah,' meaning 'transcending the world in vision, splendor, and brilliance.' Designed
+                    in true boutique style, the hotel beautifully combines light and exquisite woodwork to create an
+                    inviting atmosphere, offering the perfect blend of comfort and tranquility for guests to immerse
+                    themselves in the sacred ambiance of Kashi.</p>
+                <br>
+
+
+            </div>
+            <div class="center-footer" data-aos="fade-right" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                <h3>Explore</h3>
+                <div class="footer-links">
+                    <ul>
+                        <li>
+                            <a href="home">- Home</a>
+                        </li>
+                        <li>
+                            <a href="about.html">- About Us</a>
+                        </li>
+                        <li>
+                            <a href="room.html">- Rooms</a>
+                        </li>
+                        <li>
+                            <a href="restaurant.html">- Restaurant</a>
+                        </li>
+                        <li>
+                            <a href="gallery.html">- Gallery</a>
+                        </li>
+                        <li>
+                            <a href="#">- Explore Varanasi</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">- Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="right-footer" data-aos="fade-right" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                <h3>Contact</h3>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <!-- <h4>- Address</h4> -->
+                        <!-- <i class="ri-map-pin-user-line footer-icons"></i> -->
+                    </div>
+                    <p>
+                        Paharia Rd, opposite Hero Motocorp Showroom,
+                        Akhtha, Sarnath, Varanasi,
+                        Uttar Pradesh 221007
+                    </p>
+                </div>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <i class="ri-mail-unread-line footer-icons"></i>
+                        <!-- <h4>- Email</h4> -->
+                    </div>
+                    <p class="footer-email">reservations@alokahkashi.in</p>
+                </div>
+                <div class="footer-address-box">
+                    <div class="footer-address">
+                        <i class="ri-phone-line footer-icons-phone "></i>
+                        <!-- <h4>- Phone</h4> -->
+                    </div>
+                    <p class="footer-phone-no">+91 91514 54301 / 302</p>
+                </div>
+
+                <div class="footer-socila-links">
+                    <div>
+                        <a href=""><i class="ri-facebook-line"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="ri-instagram-line"></i>
+                    </div></a>
+                    <div>
+                        <a href=""><i class="ri-mail-check-line"></i></a>
+                    </div>
+                    <div>
+                        <a href=""><i class="ri-twitter-x-line"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+            privacy policy section       
+         ======================== -->
+    <section>
+        <div class="privacyPage" style="    border-top: 1px solid #ffffff63;">
+            <!-- <a href="privacypolicy.html">FAQ</a> -->
+            <a href="privacypolicy.html">Privacy Policy</a>
+            <p>|</p>
+            <a href="termcondition.html">Terms & Condition</a>
+            <p>|</p>
+            <a href="cancellationpolicy.html">Cancellation Policy</a>
+        </div>
+
+    </section>
+    <button id="scrollToTopBtn" class="scroll-to-top" onclick="scrollToTop()"><i class="ri-arrow-up-line"></i></button>
+    <section class="call-buton"><a class="cc-calto-action-ripple" href="tel:+91 9151454301"><i class="fa fa-phone"></i>
+            <!-- <span class="num">0909.999.999</span> -->
+        </a>
+    </section>
+    <div class="subfooter">
+        <p>© Copyright 2024 Alokah Kashi Managed by Sai Srinika Ventures / Designed & Developed By - <a
+                href="https://www.devindia.in/" target="_blank">
+                Dev India IT
+                Services</a> </p>
+    </div>
+    <!-- ++++++++++++++++++++++++++++++++++++++++++++ -->
+
+    <!-- =======================
+                         aos js
+              ======================== -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://storage.ko-fi.com/cdn/scripts/overlay-widget.js"></script>
+
+
+    <script src="script.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        (function (w, d, s, u) {
+            w.gbwawc = {
+                url: u,
+                options: {
+                    waId: "+91 9151454301",
+                    siteName: "Alokah Kashi",
+                    siteTag: "Online ",
+                    siteLogo: "https://www.alokahkashi.in/web/assets/images/fev.png",
+                    widgetPosition: "LEFT",
+                    triggerMessage: "",
+                    welcomeMessage: "Welcome To Alokah kashi Hotel, Varanasi’s Pinnacle Of Elegance",
+                    brandColor: "#25D366",
+                    messageText: "Hi sir, I want to book a",
+                    replyOptions: ['Signature Room', 'Classic Room', 'Luxe Dormitory', 'SeeRa Restaurant'],
+                },
+            };
+            var h = d.getElementsByTagName(s)[0],
+                j = d.createElement(s);
+            j.async = true;
+            j.src = u + "/whatsapp-widget.min.js?_=" + Math.random();
+            h.parentNode.insertBefore(j, h);
+        })(window, document, "script", "https://waw.gallabox.com");
+    </script>
+
+</html>
