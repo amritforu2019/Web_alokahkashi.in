@@ -722,11 +722,11 @@ if(isset($_POST['submit'])){
                 <div class="common-btn-tour" style="text-align: center; margin-top: 5rem;" data-aos="fade-up"
                     data-aos-anchor-placement="bottom-bottom" data-aos-duration="1000">
 
-                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729078508/uenqsb0f39dw8fac73v2.png"
+                    <img src="./assets/web/images/restaurant-menu-btn-line.png"
                         alt="">
                     <a class="all-btn" href="https://drive.google.com/file/d/1AUgKYXwyQzAJmv19WXlqmrrpUI4Uhtga/view?usp=sharing"
                         target="_blank">View Detailed Menu<i class="ri-arrow-right-up-line"></i></a>
-                    <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729078508/uenqsb0f39dw8fac73v2.png"
+                    <img src="./assets/web/images/restaurant-menu-btn-line.png"
                         alt="">
 
                 </div>
