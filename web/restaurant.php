@@ -724,7 +724,7 @@ if(isset($_POST['submit'])){
 
                     <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729078508/uenqsb0f39dw8fac73v2.png"
                         alt="">
-                    <a class="all-btn" href="https://drive.google.com/file/d/1AUgKYXwyQzAJmv19WXlqmrrpUI4Uhtga/view?usp=sharing"
+                    <a class="all-btn" href="https://drive.google.com/file/d/13JK-ucaZeeSc-Ovfalf1vC43GBf-XvCR/view?usp=sharing"
                         target="_blank">View Detailed Menu<i class="ri-arrow-right-up-line"></i></a>
                     <img src="https://res.cloudinary.com/ddgkcvzcq/image/upload/v1729078508/uenqsb0f39dw8fac73v2.png"
                         alt="">
